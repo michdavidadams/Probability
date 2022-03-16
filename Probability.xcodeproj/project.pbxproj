@@ -11,6 +11,7 @@
 		7654AC9A27E23FE000D121FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654AC9927E23FE000D121FD /* ContentView.swift */; };
 		7654AC9C27E23FE200D121FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654AC9B27E23FE200D121FD /* Assets.xcassets */; };
 		7654AC9F27E23FE200D121FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7654AC9E27E23FE200D121FD /* Preview Assets.xcassets */; };
+		7654ACA827E241AC00D121FD /* Section 5.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7654ACA727E241AB00D121FD /* Section 5.1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7654AC9927E23FE000D121FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7654AC9B27E23FE200D121FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7654AC9E27E23FE200D121FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7654ACA727E241AB00D121FD /* Section 5.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Section 5.1.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7654AC9727E23FE000D121FD /* ProbabilityApp.swift */,
 				7654AC9927E23FE000D121FD /* ContentView.swift */,
+				7654ACA627E2410C00D121FD /* Chapter 5 */,
 				7654AC9B27E23FE200D121FD /* Assets.xcassets */,
 				7654AC9D27E23FE200D121FD /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				7654AC9E27E23FE200D121FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7654ACA627E2410C00D121FD /* Chapter 5 */ = {
+			isa = PBXGroup;
+			children = (
+				7654ACA727E241AB00D121FD /* Section 5.1.swift */,
+			);
+			path = "Chapter 5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				7654AC9A27E23FE000D121FD /* ContentView.swift in Sources */,
 				7654AC9827E23FE000D121FD /* ProbabilityApp.swift in Sources */,
+				7654ACA827E241AC00D121FD /* Section 5.1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
